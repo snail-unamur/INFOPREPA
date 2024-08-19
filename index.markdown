@@ -2,9 +2,9 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: default
+title: Bienvenu aux cours préparatoire d'informatique !
 ---
-# Bienvenu aux cours préparatoire d'informatique !
 
 Vous trouverez sur ce site web tout le matériel nécessaire pour les différentes séances des cours, ainsi que quelques pointeurs vers d'autres resources utiles pour les études en informatique.
 
