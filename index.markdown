@@ -18,9 +18,12 @@ Vous trouverez sur ce site web tout le matériel nécessaire pour les différent
 
 ([documentation](https://upperstory.com/turingtumble/assets/educator-guide-2021.pdf))
 
+**Activité Binary Game** : Vas sur [https://learningcontent.cisco.com/games/binary/index.html](https://learningcontent.cisco.com/games/binary/index.html) pour résoudre le plus de puzzles le plus vite possible avant que la pile de nouveaux puzzles ne déborde (on parle d'*overflow* en informatique ;-)).
+
+![Binary Game printscreen](img/binarygame.jpg)
+
 ### 1-2 Utiliser l’ordinateur comme un·e power user
 
-[tresor_chateau.zip](tresor_chateau.zip) (adapté depuis [Le trésor du chateau: Jeu de piste en ligne de commande sous Linux](https://www.enseignons.be/preparation/86760/) par Cédric Libert)
 
 ## Partie 2 : Devenir un·e développeur·euse
 
