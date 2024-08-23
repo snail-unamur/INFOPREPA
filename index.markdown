@@ -24,6 +24,26 @@ Vous trouverez sur ce site web tout le matériel nécessaire pour les différent
 
 ### 1-2 Utiliser l’ordinateur comme un·e power user
 
+**Activité Jeu de piste en ligne de commande** :
+
+Télécharge le fichier suivant [tresor_chateau.zip](tresor_chateau.zip) et dézipe le dans ton dossier utilisateur (`/home/tonidentifiant/`). Si tu veux le faire sans utiliser la souris, ouvre un terminal de commande et tape les commandes suivantes pour télécharger le fichier sur ta machine depuis le site web :
+```bash
+cd
+wget https://snail-unamur.github.io/INFOPREPA/tresor_chateau.zip
+```
+La commande `ls` devrait normalement faire apparaître le fichier `tresor_chateau.zip` dans la liste des fichiers. Tu peux maintenant déziper le fichier à l'aide de la commande suivante :
+```bash
+unzip tresor_chateau.zip
+```
+La commande `ls` devrait maintenant faire apparaître le dossier `tresor_chateau`. Pour démarrer le jeu, rends toi dans ce dossier et lis le premier indice à l'aide des commandes suivantes :
+```bash
+cd tresor_chateau
+cat panneau01.txt
+```
+
+*Pro tip : dans un terminal de commande, la [touche de tabulation](https://fr.wikipedia.org/wiki/Touche_de_tabulation) permet de compléter automatiquement la fin de la commande. Par exemple, `cd tres` + tabulation complétera la commande en `cd tresor_chateau`, pour autant qu'aucun autre dossier commençant par `tres` se trouve dans le répertoire courant.*
+
+(adapté depuis [Le trésor du chateau: Jeu de piste en ligne de commande sous Linux](https://www.enseignons.be/preparation/86760/) de Cédric Libert)
 
 ## Partie 2 : Devenir un·e développeur·euse
 
