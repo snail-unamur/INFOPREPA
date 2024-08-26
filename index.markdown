@@ -63,7 +63,7 @@ Lors de la dernière séance, nous avons vu avec vous les briques de base de la 
 
 ![Cheat sheet reprenant les bases de la programmation](img/cheatsheet-bases-programmation.jpg)
 
-**Exemple *Financement participatif* :** Cet exemple est utilisé dans le cours pour illustrer les différentes étapes de la conception d'un algorithme permettant de résoudre une tâche donnée. Voici l'énoncé de l'exercice en français :
+**Exemple *Financement participatif* :** Cet exemple est utilisé dans le cours pour illustrer les différentes étapes de la conception d'un algorithme permettant d'automatiser une tâche donnée. Voici l'énoncé de l'exercice en français :
 
 > Sur une plateforme de financement participatif, chaque utilisateur·trice décide librement d’un montant qu’il ou elle souhaite investir dans un projet qui lui tient à cœur. L’utilisateur·trice reçoit en retour certains avantages en fonction de la somme investie. Ces avantages sont cumulatifs : une personne qui investit 100€ a droit à recevoir au moins les même avantages qu’une personne qui investit 99€ ou moins.
 >
@@ -76,7 +76,11 @@ Lors de la dernière séance, nous avons vu avec vous les briques de base de la 
 
 **Activité *Bootstrapping your Python skills* :** Pour découvrir le langage Python, on te propose d'aller sur le [Jupyter Notebook créé par nos soins](https://colab.research.google.com/drive/15CcHpemDYJcn2KOhdoFAEEY-riRKAXQ2?usp=sharing). Les *notebooks* (ou *calepins* en français) sont des environnement de développement dédiés à l'apprentissage d'un langage de programmation. Ce calepin a été conçu pour découvrir les bases du langage Python.
 
-### 2-2 L'environnement de développement 
+Pour te faciliter la vie par la suite, voici une *cheat sheet* avec les briques de base de la programmation en Python (une [version .pdf est disponible ici](cheatsheet-bases-python.pdf)) :
+
+![Cheat sheet reprenant les bases de la programmation en Python](img/cheatsheet-bases-python.jpg)
+
+### 2-2 L'environnement de développement
 
 
 
