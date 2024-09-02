@@ -14,6 +14,10 @@ Vous trouverez sur ce site web tout le matériel nécessaire pour les différent
 
 ### 1-1 C’est quoi l’informatique ?
 
+Cette première séance se concentre sur l'ordinateur et la manière dont il traite l'information. Le but de la séance est de ... rendre une planche de plastique capable de faire des additions à ta place ! 😁
+
+[Les slides de la séance sont disponibles ici.](INFOB000-Cours-prepa-session01.pdf)
+
 **Activité *Turing Tumble* :** Vas sur la version en ligne de [Turing Tumble](https://tumble-together.herokuapp.com/) et essaye de résoudre les puzzles \#1, \#5 et \#11 : [https://tumble-together.herokuapp.com/](https://tumble-together.herokuapp.com/).
 
 ![Turing Tumble printscreen 1](img/turingtumble1.jpg)
@@ -27,18 +31,27 @@ Vous trouverez sur ce site web tout le matériel nécessaire pour les différent
 
 ### 1-2 Utiliser l’ordinateur comme un·e power user
 
+Deuxième séance, il est temps de voir comment utiliser un ordinateur comme un·e pro, via un terminal de commande. 😎
+
+[Les slides de la séance sont disponibles ici.](INFOB000-Cours-prepa-session02.pdf)
+
 **Activité *Jeu de piste en ligne de commande* :**
 
 Télécharge le fichier suivant [tresor_chateau.zip](tresor_chateau.zip) et dézipe le dans ton dossier utilisateur (`/home/tonidentifiant/`). Si tu veux le faire sans utiliser la souris, ouvre un terminal de commande et tape les commandes suivantes pour télécharger le fichier sur ta machine depuis le site web :
+
 ```bash
 cd
 wget https://snail-unamur.github.io/INFOPREPA/tresor_chateau.zip
 ```
+
 La commande `ls` devrait normalement faire apparaître le fichier `tresor_chateau.zip` dans la liste des fichiers. Tu peux maintenant déziper le fichier à l'aide de la commande suivante :
+
 ```bash
 unzip tresor_chateau.zip
 ```
+
 La commande `ls` devrait maintenant faire apparaître le dossier `tresor_chateau`. Pour démarrer le jeu, rends toi dans ce dossier et lis le premier indice à l'aide des commandes suivantes :
+
 ```bash
 cd tresor_chateau
 cat panneau01.txt
@@ -63,16 +76,20 @@ Lors de la dernière séance, nous avons vu avec vous les briques de base de la 
 
 ![Cheat sheet reprenant les bases de la programmation](img/cheatsheet-bases-programmation.jpg)
 
+Le but de cette troisième séance est de voir comment combiner ces briques de base pour passer d'une tâche à automatiser au programme qui l'automatisera. Et pour cela, on va utiliser l'exemple ci-dessous. 👇
+
+[Les slides de la séance sont disponibles ici.](INFOB000-Cours-prepa-session03.pdf)
+
 **Exemple *Financement participatif* :** Cet exemple est utilisé dans le cours pour illustrer les différentes étapes de la conception d'un algorithme permettant d'automatiser une tâche donnée. Voici l'énoncé de l'exercice en français :
 
 > Sur une plateforme de financement participatif, chaque utilisateur·trice décide librement d’un montant qu’il ou elle souhaite investir dans un projet qui lui tient à cœur. L’utilisateur·trice reçoit en retour certains avantages en fonction de la somme investie. Ces avantages sont cumulatifs : une personne qui investit 100€ a droit à recevoir au moins les même avantages qu’une personne qui investit 99€ ou moins.
 >
 > Dans le cadre d’une campagne pour lancer une nouvelle artiste, vous devez implémenter une suite d’instructions qui, à partir d’un montant donné, affiche les avantages octroyés suivants :
->  - à partir de 50€ : envoi d’un poster dédicacé (avantage 1);
->  - à partir de 500€ : possibilité de passer 30 minutes avec l’artiste (avantage 2);
->  - à partir de 5000€ : concert privé pour max. 20 personnes de votre choix (avantage 3).
->  - Si l’utilisateur·trice ne donne pas suffisamment pour avoir un avantage, il faut l’avertir.
-
+>
+> - à partir de 50€ : envoi d’un poster dédicacé (avantage 1);
+> - à partir de 500€ : possibilité de passer 30 minutes avec l’artiste (avantage 2);
+> - à partir de 5000€ : concert privé pour max. 20 personnes de votre choix (avantage 3).
+> - Si l’utilisateur·trice ne donne pas suffisamment pour avoir un avantage, il faut l’avertir.
 
 **Activité *Bootstrapping your Python skills* :** Pour découvrir le langage Python, on te propose d'aller sur le [Jupyter Notebook créé par nos soins](https://colab.research.google.com/drive/15CcHpemDYJcn2KOhdoFAEEY-riRKAXQ2?usp=sharing). Les *notebooks* (ou *calepins* en français) sont des environnement de développement dédiés à l'apprentissage d'un langage de programmation. Ce calepin a été conçu pour découvrir les bases du langage Python.
 
@@ -82,7 +99,7 @@ Pour te faciliter la vie par la suite, voici une *cheat sheet* avec les briques 
 
 ### 2-2 L'environnement de développement
 
-Pour se familiariser avec l'environnement de développement intégré (EDI) [Visual Studio Code](https://code.visualstudio.com), utilisé en première année, on te propose de suivre un mini tutoriel pour te présenter quelques fonctionnalités de base. Tu te rendras vite compte que les EDIs sont des outils puissants, personnalisables à volonté. N'hésites donc pas à explorer par toi même et voir ce qu'il est possible de faire avec.
+Dernière séance, pour se familiariser avec l'environnement de développement intégré (EDI) [Visual Studio Code](https://code.visualstudio.com), utilisé en première année, on te propose de suivre un mini tutoriel pour te présenter quelques fonctionnalités de base. Tu te rendras vite compte que les EDIs sont des outils puissants, personnalisables à volonté. N'hésites donc pas à explorer par toi même et voir ce qu'il est possible de faire avec.
 
 **Les bases :** La première étape lorsque l'on veut programmer en Python est d'installer le plugin Python via le panneau *Extensions*. L'installation du plugin Python devrait également déclencher l'installation du plugin Python Debugger :
 
@@ -106,7 +123,7 @@ Une fois fait, n'oublie pas de sauver le fichier (`CTRL` + `s` sur Windows et Li
 
 ![Nouveau Fichier](img/vscode04-executer.gif)
 
-**Renommer une variable et naviguer dans le code :** Pour la suite, tu vas avoir besoin de créer un nouveau fichier (par exemple, `deviner.py`) et d'y ajouter le code suivant : 
+**Renommer une variable et naviguer dans le code :** Pour la suite, tu vas avoir besoin de créer un nouveau fichier (par exemple, `deviner.py`) et d'y ajouter le code suivant :
 
 ```python
 import random
@@ -161,7 +178,7 @@ La fonction d'auto complétion de l'EDI te facilitera la vie en te proposant dif
 
 Un autre élément intéressant du message d'erreur est la localisation (probable) de cette erreur : `File: "/Users/.../deviner.py", line 23, in <module> deviner_nombre()`. En passant ta souris sur <u>`"/Users/.../deviner.py", line 23`</u>, ton EDI t'indiques que tu peux te rendre à l'endroit renseigné (via `cmd` + clic sur Mac), ce qui facilite le diagnostic et la correction de l'erreur. Dans ce cas ci, il suffit simplement d'ajouter une valeur lors de l'appel à `deviner_nombre()`. Par exemple, `deviner_nombre(100)` fera deviner un nombre entre 1 et 100 à l'utilisateur.
 
-**Documenter le code :** Lorsque l'on programme, il est important de documenter son code. Tu as sans doute remarqué les commentaires précédés d'un dièse `#` dans le code que nous t'avons fourni plus haut. Ces commentaires renseignent sur les différentes étapes du code, par exemple lors de l'appel à une fonction externe comme `randint`. Ces commentaires sont ignorés par l'interpréteur Python. Autrement dit, si tu veux qu'une ligne de code ne soit pas exécutée sans pour autant la supprimer, ajouter un dièse `#` au début de la ligne et l'interpréteur l'ignorera. 
+**Documenter le code :** Lorsque l'on programme, il est important de documenter son code. Tu as sans doute remarqué les commentaires précédés d'un dièse `#` dans le code que nous t'avons fourni plus haut. Ces commentaires renseignent sur les différentes étapes du code, par exemple lors de l'appel à une fonction externe comme `randint`. Ces commentaires sont ignorés par l'interpréteur Python. Autrement dit, si tu veux qu'une ligne de code ne soit pas exécutée sans pour autant la supprimer, ajouter un dièse `#` au début de la ligne et l'interpréteur l'ignorera.
 
 Maintenant, si tu passes le curseur de ta souris sur `randint`, l'EDI t'affichera une fenêtre reprenant l'entête de la fonction, ainsi qu'une phrase décrivant ce que fait cette fonction :
 
