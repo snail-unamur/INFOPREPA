@@ -6,6 +6,8 @@ layout: default
 title: Bienvenu aux cours préparatoire d'informatique !
 ---
 
+⚠️ **La dernière version du cours est disponnible sur [le site web de la SNAIL team 🐌](https://snail.info.unamur.be/course/infoprepa/).** ⚠️
+
 Vous trouverez sur ce site web tout le matériel nécessaire pour les différentes séances des cours, ainsi que quelques pointeurs vers d'autres resources utiles pour les études en informatique.
 
 ------------------------------------------------------------
